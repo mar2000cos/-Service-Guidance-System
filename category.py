@@ -4,7 +4,7 @@ troca_de_tela = ["substituição de tela", "troca de tela", "tela trincada", "te
 formatação = ["sistema não carrega", "sistema não abre", "sistema nao entra", "não entra no sistema", "restaurar sistema", "reset do sistema"]
 
 # Dicionário para mapear as listas
-categorias = {
+category = {
     "Limpeza/Reparo": sinonimos_tarefa,
     "Troca de Tela": troca_de_tela,
     "Formatação": formatação
