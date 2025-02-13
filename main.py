@@ -1,12 +1,7 @@
-from category import category
-from messages import messages
+from functions import exibir_solucao
 
-# Função para exibir a solução do problema
-def exibir_solucao(tarefa):
-    for nome_array, lista in category.items():
-        if tarefa in lista:
-            print(f"A possível solução do problema é: {nome_array}")
-            print(messages[nome_array])  # Chamando a mensagem correspondente
-            return
-    # Caso a tarefa não seja encontrada
-    print("Serviço não listado, tente novamente.")
+# Entrada do usuário
+tarefa = input("Digite o defeito relatado pelo cliente: ").strip().lower()
+
+# Chamada da função para exibir a solução
+exibir_solucao(tarefa)
