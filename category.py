@@ -1,11 +1,12 @@
-# Definição dos arrays de sinônimos para cada categoria
-sinonimos_tarefa = ["Limpar", "Higienizar", "Sanitizar", "Desinfetar", "Lavar", "Esfregar"]
-troca_de_tela = ["substituição de tela", "troca de tela", "tela trincada", "tela rachada", "tela com manchas", "tela com linhas", "tela desfocada"]
-formatação = ["sistema não carrega", "sistema não abre", "sistema nao entra", "não entra no sistema", "restaurar sistema", "reset do sistema"]
+# services that are performed by the company
+troca_de_teclado = ['teclado disparando tecla', 'teclado com teclas que não funcionam', 'teclado não funciona', 'teclado não funciona', 'teclado com teclas falhando', 'teclado com teclas faltando']
+troca_de_tela = ['substituição de tela', 'troca de tela', 'tela trincada', 'tela rachada', 'tela com manchas', 'tela com linhas', 'tela desfocada']
+formatação = ['sistema não carrega', 'sistema não abre', 'sistema nao entra', 'não entra no sistema', 'restaurar sistema', 'reset do sistema']
+problemas_de_placa = ['equipamento fica com led acesso', 'equipamento não liga', 'equipamento não dá sinal', '']
 
-# Dicionário para mapear as listas
+# service mapping dictionary
 category = {
-    "Limpeza/Reparo": sinonimos_tarefa,
+    "Troca de teclado": troca_de_teclado ,
     "Troca de Tela": troca_de_tela,
     "Formatação": formatação
 }
