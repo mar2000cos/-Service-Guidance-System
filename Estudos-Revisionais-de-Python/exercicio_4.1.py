@@ -38,8 +38,12 @@ for i in range (0, 50, 2):
 #Some todos os números de 1 a 100 e exiba o resultado.
 
 #💡 Dica: Crie uma variável soma = 0 e use soma += número.
+'''
+soma=0 # Inicializa uma variável chamada 'soma' com o valor 0. Ela será usada para armazenar a soma dos números.
 
+for num in range (1, 101): # Cria um loop que percorre os números de 1 até 100 (o 101 não é incluído).
 
-for i in range (1, 100):
-    soma=0
-    print(i)
+    soma += num # Adiciona o valor atual de 'num' à variável 'soma' (equivale a soma = soma + num).
+
+print (soma) # Exibe o valor final da soma após o loop terminar. '''
+
