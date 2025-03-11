@@ -47,3 +47,4 @@ for num in range (1, 101): # Cria um loop que percorre os números de 1 até 100
 
 print (soma) # Exibe o valor final da soma após o loop terminar. '''
 
+###Crie um programa que conte de 10 até 0 e exiba "Fogo!" no final.
